@@ -1,0 +1,8 @@
+class vlc {
+
+	package { 'VLC media player':
+  	ensure => '2.2.4',
+	source=> 'C:Users\Alex\Downloads\vlc-2.2.4-win32.exe'
+	ensure => 'installed',
+}
+}
